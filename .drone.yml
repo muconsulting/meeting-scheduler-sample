@@ -1,5 +1,5 @@
 build:
-  image: bradrydzewski/java;java_openjdk7
+  image: bradrydzewski/java:openjdk6
   commands:
     - mvn install -q -DskipTests=true
     - mvn test
